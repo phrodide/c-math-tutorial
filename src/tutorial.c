@@ -3,7 +3,6 @@
 #include <time.h>
 
 void Level0(FILE *fp, int count);
-void Level0_1(FILE *fp, int count);
 
 // Start with void and don't pull argc/argv yet from the command line.
 int main(void)
@@ -33,8 +32,4 @@ void Level0(FILE *fp, int count)
 
         fprintf(fp, "$\\begin{array}{r}\n%3d \\\\\n\\times %3d \\\\\n\\hline\n\\end{array}$ &nbsp; &nbsp;\n", first, second);
     }
-}
-
-void Level0_1(FILE *fp, int count)
-{
 }

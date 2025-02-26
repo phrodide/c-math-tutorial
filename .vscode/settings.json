@@ -1,0 +1,9 @@
+{
+  "makefile.launchConfigurations": [
+    {
+      "cwd": "/Users/andrewhogan/Documents/c-math-tutorial",
+      "binaryPath": "/Users/andrewhogan/Documents/c-math-tutorial/tutorial",
+      "binaryArgs": []
+    }
+  ]
+}

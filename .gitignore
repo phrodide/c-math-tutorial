@@ -1,0 +1,6 @@
+src/tutorial.dSYM/
+src/tutorial
+.DS_Store
+src/*.o
+src/*.d
+tutorial

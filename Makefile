@@ -19,7 +19,8 @@ release: CFLAGS += -O3 -DNDEBUG
 release: clean $(EXE)
 .NOTPARALLEL: release
 
-clean: rm -f $(OBJ) $(DEP) $(EXE)
+clean: 
+	rm -f $(OBJ) $(DEP) $(EXE)
 
 $(EXE): $(OBJ)
 	$(CC) -o $@ $^ $(LIBS)
